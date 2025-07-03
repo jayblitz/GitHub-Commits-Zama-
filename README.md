@@ -1,7 +1,4 @@
-# ✅ Complete Guide: How to Do 10 GitHub Commits (Zama Eligible)
-
-This guide helps you complete **10 GitHub commits** easily using **GitHub Codespaces** — so that you can participate in the **Zama Developer Program**: [https://x.com/EarnByAbhi/status/1940383606758842679?t=ssWyWOk0gNPsVHcDEQnP4Q&s=19](https://x.com/EarnByAbhi/status/1940383606758842679?t=ssWyWOk0gNPsVHcDEQnP4Q&s=19)
-
+# ✅ Complete Guide: How to Do more than 5 GitHub Commits to become Zama Eligible
 ---
 
 ## 🪜 Step-by-Step Instructions
@@ -9,7 +6,7 @@ This guide helps you complete **10 GitHub commits** easily using **GitHub Codesp
 ### 1️⃣ Create a New Repository
 
 - Visit: https://github.com/new  
-- Repository Name: `zama-commit-test` (or any name)  
+- Repository Name: `zama-commit` (or any name you want)  
 - Set to **Public**  
 - ✅ Tick "Add a README file"  
 - Click **Create repository**
@@ -30,46 +27,19 @@ This guide helps you complete **10 GitHub commits** easily using **GitHub Codesp
 
 ### 4️⃣ Run the Following Commands
 
-Paste the following one-by-one or all together in the terminal:
+Paste the following code in the terminal:
 
-```bash
-echo "Commit 2 line" >> README.md
-git add README.md
-git commit -m "Commit 2"
-
-echo "Commit 3 line" >> README.md
-git add README.md
-git commit -m "Commit 3"
-
-echo "Commit 4 line" >> README.md
-git add README.md
-git commit -m "Commit 4"
-
-echo "Commit 5 line" >> README.md
-git add README.md
-git commit -m "Commit 5"
-
-echo "Commit 6 line" >> README.md
-git add README.md
-git commit -m "Commit 6"
-
-echo "Commit 7 line" >> README.md
-git add README.md
-git commit -m "Commit 7"
-
-echo "Commit 8 line" >> README.md
-git add README.md
-git commit -m "Commit 8"
-
-echo "Commit 9 line" >> README.md
-git add README.md
-git commit -m "Commit 9"
-
-echo "Commit 10 line" >> README.md
-git add README.md
-git commit -m "Commit 10"
 ```
-```bash
+for i in {1..20}
+do
+  echo "Commit $i line" >> README.md
+  git add README.md
+  GIT_AUTHOR_DATE="$(date -d "$i days ago" +"%Y-%m-%dT12:00:00")" \
+  GIT_COMMITTER_DATE="$(date -d "$i days ago" +"%Y-%m-%dT12:00:00")" \
+  git commit -m "Commit $i"
+done
+```
+
 git push
 ```
 
@@ -77,22 +47,16 @@ git push
 
 💥 You’re Done!
 
-• Close Every Tab ( Broaser )
+• Close Every Tab (Browser)
 
 • Just Wait 5-10 Minutes Max
 
-• You now have 10 public commits visible on your profile — ready to use for Zama Developer Program.
+• You now have 20 public commits visible on your profile — ready to use for Zama Developer Program.
 
-## 🙌 Guide Created by: [@EarnByAbhi](https://x.com/earnbyabhi)
+## 🙌 Guide Created by: [@EarnByAbhi](https://x.com/earnbyabhi) updated by [@Edemblinks](https://x.com/edemblinks)
 
 Follow & Stay Connected for More Zama Alpha, Airdrops & Dev Tutorials
 
-- 📍 X (Twitter): [@EarnByAbhi](https://x.com/earnbyabhi)
-- 💬 Telegram: [@EarnByAbhi23](https://t.me/earnbyabhi23)
-- ▶️ YouTube: [EarnByAbhi](https://www.youtube.com/@EarnByAbhi)
-
-> 🧠 Join our Telegram Community  
-For live help, updates, & early alpha drops  
-👉 [https://t.me/earnbyabhi23](https://t.me/earnbyabhi23)
+- 📍 X (Twitter): [@Edemblinks](https://x.com/edemblinks)
 
 ---
