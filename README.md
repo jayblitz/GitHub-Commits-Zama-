@@ -54,7 +54,7 @@ git push
 
 • You now have 20 public commits visible on your profile — ready to use for Zama Developer Program.
 
-## 🙌 Guide Created by: [@EarnByAbhi](https://x.com/earnbyabhi) updated by [@Edemblinks](https://x.com/edemblinks)
+## 🙌 Guide was Created by: [@EarnByAbhi](https://x.com/earnbyabhi) updated by [@Edemblinks](https://x.com/edemblinks)
 
 Follow & Stay Connected for More Zama Alpha, Airdrops & Dev Tutorials
 
